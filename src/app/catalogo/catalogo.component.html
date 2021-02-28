@@ -1,0 +1,27 @@
+<div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="{{parallax}}"></div>
+</div>
+
+<div class="container ">
+    <div class="section">
+        <h5 id="no-seleccionable" class="center grey-text">⭐ Servicios</h5>
+        <h4 class="center blue-text"><strong>Estamos Orgullosos De Nuestro Catálogo De Productos</strong></h4>
+        <!--   Icon Section primera 3 cards  -->
+        <div class="row ">
+            <app-card-catalogo [DataEntrante]='card' *ngFor='let card of presentacionCatalogo'></app-card-catalogo>
+        </div>
+        <!--   Icon Section segunda 3 cards  -->
+        <div class="row ">
+            <app-card-catalogo [DataEntrante]='card' *ngFor='let card of presentacionCatalogo1'></app-card-catalogo>
+        </div>
+        <!--   Icon Section tercera 3 cards  -->
+        <div class="row ">
+            <app-card-catalogo [DataEntrante]='card' *ngFor='let card of presentacionCatalogo2'></app-card-catalogo>
+        </div>
+
+    </div>
+</div>
+
+<div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="{{parallax1}}"></div>
+</div>
