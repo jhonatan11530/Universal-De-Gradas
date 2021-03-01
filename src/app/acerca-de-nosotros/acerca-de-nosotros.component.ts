@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AcercaDeNosotrosComponent implements OnInit {
   public parallax: string = 'assets/img/Ventanas/1.jpg';
-  public Servicio: string = 'assets/LOGOS/tubos.png';
+  public Servicio: string = 'assets/img/Espina/9.jpg';
+  public Servicio1: string = 'assets/LOGOS/tubos.png';
 
   constructor() { }
 
