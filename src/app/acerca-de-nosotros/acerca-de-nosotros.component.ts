@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AcercaDeNosotrosComponent implements OnInit {
   public parallax: string = 'assets/img/Ventanas/1.jpg';
-  public Servicio: string = 'assets/img/Espina/9.jpg';
-  public Servicio1: string = 'assets/LOGOS/tubos.png';
-
+  public parallax1: string = 'assets/img/Redonda/1.jpg';
+  public somos: string = 'assets/LOGOS/equipo.png';
+  public somos1: string = 'assets/LOGOS/objetivo.png';
+  public somos2: string = 'assets/LOGOS/vision.png';
+  public estrategia: string = 'assets/LOGOS/grua.png';
+  public estrategia1: string = 'assets/LOGOS/gancho.png';
+  public estrategia2: string = 'assets/LOGOS/edificio.png';
   constructor() { }
 
   ngOnInit(): void {

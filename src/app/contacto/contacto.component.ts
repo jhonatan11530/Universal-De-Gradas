@@ -1,5 +1,5 @@
-import { Component,OnInit } from '@angular/core';
-import { FormBuilder,Validators } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-contacto',
   templateUrl: './contacto.component.html',
@@ -7,20 +7,22 @@ import { FormBuilder,Validators } from '@angular/forms';
 })
 export class ContactoComponent implements OnInit {
   formulario = this.fb.group({
-    Nombre:['',Validators.required],
-    Apellido:['',Validators.required],
-    Telefono:['',Validators.required],
-    Correo:['',Validators.required],
-    Mensaje:['',Validators.required]
+    Nombre: ['', Validators.required],
+    Apellido: ['', Validators.required],
+    Telefono: ['', Validators.required],
+    Correo: ['', Validators.required],
+    Mensaje: ['', Validators.required]
   });
-  onSubmit(){
+
+  constructor(private fb: FormBuilder) {
+
+  }
+
+  onSubmit() {
     console.log(this.formulario.value);
   }
-	constructor(private fb: FormBuilder) {
-    
-   }
 
-	ngOnInit() {
+  ngOnInit() {
 
-	}
+  }
 }

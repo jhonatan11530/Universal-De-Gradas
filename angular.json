@@ -103,7 +103,6 @@
             ],
             "scripts": [
               "src/wps/js/materialize.js"
-
             ]
           }
         },

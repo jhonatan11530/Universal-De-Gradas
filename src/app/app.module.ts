@@ -8,8 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ContactoComponent } from './contacto/contacto.component';
-import { CardCatalogoComponent } from './card-catalogo/card-catalogo.component';
 import { AcercaDeNosotrosComponent } from './acerca-de-nosotros/acerca-de-nosotros.component';
+import { CatalogoPresentacionComponent } from './catalogo-presentacion/catalogo-presentacion.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +19,8 @@ import { AcercaDeNosotrosComponent } from './acerca-de-nosotros/acerca-de-nosotr
     CatalogoComponent,
     InicioComponent,
     ContactoComponent,
-    CardCatalogoComponent,
     AcercaDeNosotrosComponent,
+    CatalogoPresentacionComponent
   ],
   imports: [
     ReactiveFormsModule,
