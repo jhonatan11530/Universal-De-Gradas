@@ -11,7 +11,6 @@ export class AppComponent implements OnInit {
     $(document).ready(function () {
       $('.sidenav').sidenav();
       $('.slider').slider({ full_width: true });
-      $('.parallax').parallax();
       $('.fixed-action-btn').floatingActionButton({
         toolbarEnabled: true
       });
@@ -20,8 +19,8 @@ export class AppComponent implements OnInit {
           scrollTop: $("#habilidades").offset().top
         }, 1500);
       });
-
     });
+
   }
   constructor() {
 

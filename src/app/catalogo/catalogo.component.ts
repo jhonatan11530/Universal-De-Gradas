@@ -5,8 +5,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./catalogo.component.css']
 })
 export class CatalogoComponent implements OnInit {
-  public parallax: string = 'assets/img/Ventanas/1.jpg';
-  public parallax1: string = 'assets/img/Ventanas/9.jpg';
   public presentacionCatalogo: Array<any> = [];
   public presentacionCatalogo1: Array<any> = [];
   public presentacionCatalogo2: Array<any> = [];

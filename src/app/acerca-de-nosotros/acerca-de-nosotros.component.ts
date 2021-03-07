@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acerca-de-nosotros.component.css']
 })
 export class AcercaDeNosotrosComponent implements OnInit {
-  public parallax: string = 'assets/img/Ventanas/1.jpg';
-  public parallax1: string = 'assets/img/Redonda/1.jpg';
   public somos: string = 'assets/LOGOS/equipo.png';
   public somos1: string = 'assets/LOGOS/objetivo.png';
   public somos2: string = 'assets/LOGOS/vision.png';

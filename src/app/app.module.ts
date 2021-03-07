@@ -10,6 +10,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { AcercaDeNosotrosComponent } from './acerca-de-nosotros/acerca-de-nosotros.component';
 import { CatalogoPresentacionComponent } from './catalogo-presentacion/catalogo-presentacion.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CatalogoPresentacionComponent } from './catalogo-presentacion/catalogo-
     InicioComponent,
     ContactoComponent,
     AcercaDeNosotrosComponent,
-    CatalogoPresentacionComponent
+    CatalogoPresentacionComponent,
+    SliderComponent
   ],
   imports: [
     ReactiveFormsModule,
