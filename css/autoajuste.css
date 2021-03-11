@@ -1,0 +1,134 @@
+@media only screen and (max-width: 450px) {
+    div.ocult {
+        display: none
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .formulario{
+
+        position: absolute;
+        left: 600px;
+        height: 117%;
+        width: 50%;
+        top: 70px;
+        }
+}
+@media only screen and(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .formulario {
+
+        position: relative;
+        top:100%;
+        width: 100%;
+
+       
+         }
+}
+
+@media only screen and(min-width: 481px) and (max-width: 767px) {
+    .formulario {
+
+        position: relative;
+        top:100%;
+        width: 100%;
+
+       
+         }
+}
+@media only screen and(min-width: 320px) and (max-width: 480px) {
+    .formulario {
+
+        position: relative;
+        top:100%;
+        width: 30%;
+
+       
+         }
+}
+
+@media (min-width: 1000px) {
+    .Category {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.numerico {
+        position: relative;
+        font-size: 15px;
+        left: 120px;
+        text-align:center;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.maps {
+        position: relative;
+        left: 120px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.contac {
+        position: relative;
+        left: 120px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+@media (min-height: 1281px){
+    div.bajo {
+        position: relative;
+        top: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 768px) and (max-width: 1024px) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 481px) and (max-width: 767px) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 320px) and (max-width: 480px) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media only screen and(min-width: 768px) and (max-width: 1024px) {
+    div.col ul.collapsible {
+        position: relative;
+        width: 100%;
+    }
+}

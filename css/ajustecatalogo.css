@@ -1,0 +1,13 @@
+@media only screen and (max-width: 710px) {
+    div.pantalla {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 711px) {
+
+    div.celular {
+        display: none;
+    }
+
+}
