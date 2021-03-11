@@ -4,30 +4,14 @@
             alt="Unsplashed background img 1" />
     </section>
 </div>
-
 <div class="container ">
     <div class="section">
-        <h5 id="no-seleccionable" class="center grey-text">⭐ Servicios</h5>
+        <h5 id="no-seleccionable" class="center grey-text">⭐ Productos</h5>
         <h4 class="center blue-text"><strong>Estamos Orgullosos De Nuestro Catálogo De Productos</strong></h4>
-        <!--   Icon Section primera 3 cards  -->
-        <div class="row ">
-            <app-catalogo-presentacion [DataEntrante]='card' *ngFor='let card of presentacionCatalogo'>
-            </app-catalogo-presentacion>
-        </div>
-        <!--   Icon Section segunda 3 cards  -->
-        <div class="row ">
-            <app-catalogo-presentacion [DataEntrante]='card' *ngFor='let card of presentacionCatalogo1'>
-            </app-catalogo-presentacion>
-        </div>
-        <!-- Icon Section tercera 3 cards -->
-        <div class="row ">
-            <app-catalogo-presentacion [DataEntrante]='card' *ngFor='let card of presentacionCatalogo2'>
-            </app-catalogo-presentacion>
-        </div>
 
+        <router-outlet></router-outlet>
     </div>
 </div>
-
 <div class="parallax-container valign-wrapper">
     <section ng-controller="MyCtrl">
         <img src="assets/img/Ventanas/9.jpg" class="parallax" du-parallax y="background" style="width: 100%;"

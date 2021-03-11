@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function () {
       $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
       $('.slider').slider({ full_width: true });
       $('.fixed-action-btn').floatingActionButton({
         toolbarEnabled: true
