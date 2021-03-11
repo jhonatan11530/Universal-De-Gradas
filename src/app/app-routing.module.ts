@@ -1,3 +1,4 @@
+import { InfoServicioComponent } from './info-servicio/info-servicio.component';
 import { CatalogoPresentacionComponent } from './catalogo-presentacion/catalogo-presentacion.component';
 import { ProductGradas20Component } from './product-gradas20/product-gradas20.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'catalogo', component: CatalogoComponent,children: [{ path: '',component:CatalogoPresentacionComponent},{path: 'gradas20',component:ProductGradas20Component,}]},
   { path: 'contacto', component: ContactoComponent },
   { path: 'acerca', component: AcercaDeNosotrosComponent},
+  { path: 'servicio', component: InfoServicioComponent},
 ];
 
 @NgModule({

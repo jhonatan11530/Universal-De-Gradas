@@ -15,11 +15,6 @@ export class AppComponent implements OnInit {
       $('.fixed-action-btn').floatingActionButton({
         toolbarEnabled: true
       });
-      $("#down").click(function () {
-        $('html, body').animate({
-          scrollTop: $("#habilidades").offset().top
-        }, 1500);
-      });
     });
 
   }

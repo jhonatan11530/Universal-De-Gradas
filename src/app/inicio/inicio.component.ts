@@ -9,9 +9,6 @@ export class InicioComponent implements OnInit {
   public img: string = 'assets/LOGOS/nombrelogo.png'; 
   public img1: string = 'assets/LOGOS/mantenimiento.png'; 
   public img2: string = 'assets/LOGOS/material.png'; 
-  public Servicio: string = 'assets/LOGOS/tubos.png';
-  public Servicio1: string = 'assets/LOGOS/configuraciones.png';
-  public Servicio2: string = 'assets/LOGOS/mantenimiento.png';
   public sliderCatalogo: Array<any> = [];//
   public sliderCatalogo1: Array<any> = [];
   public sliderCatalogo2: Array<any> = [];

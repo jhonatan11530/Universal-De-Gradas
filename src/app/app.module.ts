@@ -13,6 +13,8 @@ import { CatalogoPresentacionComponent } from './catalogo-presentacion/catalogo-
 import { SliderComponent } from './slider/slider.component';
 import { ProductGradas20Component } from './product-gradas20/product-gradas20.component';
 import { CardComponent } from './card/card.component';
+import { InfoServicioComponent } from './info-servicio/info-servicio.component';
+import { ServicioComponent } from './servicio/servicio.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CardComponent } from './card/card.component';
     CatalogoPresentacionComponent,
     SliderComponent,
     ProductGradas20Component,
-    CardComponent
+    CardComponent,
+    InfoServicioComponent,
+    ServicioComponent
   ],
   imports: [
     ReactiveFormsModule,
