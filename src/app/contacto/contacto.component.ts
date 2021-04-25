@@ -1,3 +1,4 @@
+import { MessageService } from './../services/message.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 @Component({
@@ -11,15 +12,17 @@ export class ContactoComponent implements OnInit {
     Apellido: ['', Validators.required],
     Telefono: ['', Validators.required],
     Correo: ['', Validators.required],
-    Mensaje: ['', Validators.required]
+    Mensaje: ['', Validators.required],
+    Recaptcha: ['', Validators.required],
   });
-
-  constructor(private fb: FormBuilder) {
-
+  constructor(private fb: FormBuilder, public _MessageService: MessageService) {
   }
-
   onSubmit() {
-    console.log(this.formulario.value);
+    var form = this.formulario.value
+    this._MessageService.sendMessage(form).subscribe(() => {
+      alert("Mensaje enviado correctamente");
+    });
+    
   }
 
   ngOnInit() {

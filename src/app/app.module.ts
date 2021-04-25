@@ -1,5 +1,5 @@
-import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgModule, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +15,18 @@ import { ProductGradas20Component } from './product-gradas20/product-gradas20.co
 import { CardComponent } from './card/card.component';
 import { InfoServicioComponent } from './info-servicio/info-servicio.component';
 import { ServicioComponent } from './servicio/servicio.component';
-
+import { ProductGradasRendodaComponent } from './product-gradas-rendoda/product-gradas-rendoda.component';
+import { ProductEspinaComponent } from './product-espina/product-espina.component';
+import { ProductTapadaComponent } from './product-tapada/product-tapada.component';
+import { ProductCuadradaComponent } from './product-cuadrada/product-cuadrada.component';
+import { ProductCerrajeriaComponent } from './product-cerrajeria/product-cerrajeria.component';
+import { ProductPuertasComponent } from './product-puertas/product-puertas.component';
+import { ProductVentanasComponent } from './product-ventanas/product-ventanas.component';
+import { ProductGradasMetalicasComponent } from './product-gradas-metalicas/product-gradas-metalicas.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RecaptchaModule, RecaptchaFormsModule } from "ng-recaptcha"
+import { MessageService } from "./services/message.service";
+enableProdMode();
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,15 +41,26 @@ import { ServicioComponent } from './servicio/servicio.component';
     ProductGradas20Component,
     CardComponent,
     InfoServicioComponent,
-    ServicioComponent
+    ServicioComponent,
+    ProductGradasRendodaComponent,
+    ProductEspinaComponent,
+    ProductTapadaComponent,
+    ProductCuadradaComponent,
+    ProductCerrajeriaComponent,
+    ProductPuertasComponent,
+    ProductVentanasComponent,
+    ProductGradasMetalicasComponent,
   ],
   imports: [
     ReactiveFormsModule,
     FormsModule,
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    RecaptchaModule,
+    RecaptchaFormsModule
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
