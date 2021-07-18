@@ -1,4 +1,3 @@
-
 import { ProductGradasMetalicasComponent } from './product-gradas-metalicas/product-gradas-metalicas.component';
 import { ProductVentanasComponent } from './product-ventanas/product-ventanas.component';
 import { ProductPuertasComponent } from './product-puertas/product-puertas.component';

@@ -26,6 +26,7 @@ import { ProductGradasMetalicasComponent } from './product-gradas-metalicas/prod
 import { HttpClientModule } from '@angular/common/http';
 import { RecaptchaModule, RecaptchaFormsModule } from "ng-recaptcha"
 import { MessageService } from "./services/message.service";
+import { AdsenseModule } from 'ng2-adsense';
 enableProdMode();
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ enableProdMode();
     ProductCerrajeriaComponent,
     ProductPuertasComponent,
     ProductVentanasComponent,
-    ProductGradasMetalicasComponent,
+    ProductGradasMetalicasComponent
   ],
   imports: [
     ReactiveFormsModule,
@@ -58,7 +59,11 @@ enableProdMode();
     AppRoutingModule,
     HttpClientModule,
     RecaptchaModule,
-    RecaptchaFormsModule
+    RecaptchaFormsModule,
+    AdsenseModule.forRoot({
+      adClient: 'ca-pub-5944715520754383',
+      adSlot: 7259870550,
+    })
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
