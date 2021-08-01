@@ -162,8 +162,9 @@
             alt="Unsplashed background img 1" />
     </div>
     <style>
-        #card{
-    height: 350px;
-}
+        #card {
+            height: 350px;
+        }
+
     </style>
 @endsection
