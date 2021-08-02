@@ -52,7 +52,8 @@
             <div class="center-align">
                 <h5 class="blue-text text-lighten-1"><strong>Envianos un Mensaje.</strong></h5>
             </div>
-           <form class="col s12  z-depth-3" action="" method="POST"> 
+           <form class="col s12  z-depth-3" action="{{ url('Enviar/Response')}}" method="POST"> 
+            @csrf
                 <div class="row">
                     <div class="input-field col s12">
                         <label for="name">Nombre</label>

@@ -68,3 +68,6 @@ Route::get('catalogo/PuertasMetalicas', function () {
 Route::get('catalogo/VentanasMetalicas', function () {
     return view('Catalogo.Productos.ventanas-metalicas');
 });
+
+/*-------- ENVIAR CORREO -------*/
+Route::post('Enviar/Response','MailController@Mail');
