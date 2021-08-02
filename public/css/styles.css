@@ -1,4 +1,6 @@
-
+#card {
+    height: 350px;
+}
 #no-seleccionable {
     -webkit-user-select: none;
     -moz-user-select: none;

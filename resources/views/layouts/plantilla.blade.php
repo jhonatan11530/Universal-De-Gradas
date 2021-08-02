@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Universal De Gradas | Encuentra productos como gradas,cerrajería,estructuras metalicas</title>
-    <link rel="icon" type="image/x-icon" href="LOGOS/Icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="LOGOS/favicon.ico">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"
         rel="stylesheet" media="screen,projection">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"
@@ -18,8 +18,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="{{ asset('js/materialize.min.js') }}"></script>
-    <script data-ad-client="ca-pub-5944715520754383" async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5944715520754383"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>

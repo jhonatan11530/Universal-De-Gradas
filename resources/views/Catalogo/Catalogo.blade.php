@@ -8,8 +8,6 @@
         <div class="section">
             <h5 id="no-seleccionable" class="center grey-text">⭐ Productos</h5>
             <h4 class="center blue-text"><strong>Estamos Orgullosos De Nuestro Catálogo De Productos</strong></h4>
-
-
             <!--   Icon Section primera 3 cards  -->
             <div class="row ">
                 <div class="col s12 m4">
@@ -17,12 +15,11 @@
                         <div class="card-image">
                             <img id="card" src="{{ asset('img/Redonda/1.jpg') }}">
                             <span class="card-title"></span>
-
                         </div>
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas de 20cm</strong></p>
-                                <a class="btn waves-effect blue white-text" href="gradas20">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/Gradas-20">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -32,12 +29,11 @@
                         <div class="card-image">
                             <img id="card" src="{{ asset('img/Redonda/2.jpg') }}">
                             <span class="card-title"></span>
-
                         </div>
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas Redonda</strong></p>
-                                <a class="btn waves-effect blue white-text" href="gradasredonda">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/GradasRedonda">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -47,19 +43,17 @@
                         <div class="card-image">
                             <img id="card" src="{{ asset('img/Espina/6.jpg') }}">
                             <span class="card-title"></span>
-
                         </div>
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas Espina</strong></p>
-                                <a class="btn waves-effect blue white-text" href="espina">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/Espina">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--   Icon Section segunda 3 cards  -->
-
             <div class="row ">
                 <div class="col s12 m4">
                     <div class="card">
@@ -71,7 +65,7 @@
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas Tapada</strong></p>
-                                <a class="btn waves-effect blue white-text" href="tapada">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/Tapada">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +80,7 @@
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas Cuadrada</strong></p>
-                                <a class="btn waves-effect blue white-text" href="gradascuadradas">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/GradasCuadradas">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -101,27 +95,24 @@
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Gradas Metalicas</strong></p>
-                                <a class="btn waves-effect blue white-text" href="gradasmetalicas">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/GradasMetalicas">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Icon Section tercera 3 cards -->
-
             <div class="row ">
                 <div class="col s12 m4">
                     <div class="card">
                         <div class="card-image">
                             <img id="card" src="{{ asset('img/arquitectura_industrial/1.jpg') }}">
                             <span class="card-title"></span>
-
                         </div>
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Cerrajeria</strong></p>
-                                <a class="btn waves-effect blue white-text" href="arquitectura">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/Arquitectura">VER CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +126,8 @@
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Puertas Metalicas</strong></p>
-                                <a class="btn waves-effect blue white-text" href="puertasmetalicas">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/PuertasMetalicas">VER
+                                    CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +141,8 @@
                         <div class="card-content">
                             <div class="center">
                                 <p><strong>Ventanas Metalicas</strong></p>
-                                <a class="btn waves-effect blue white-text" href="ventanasmetalicas">VER CATALOGO</a>
+                                <a class="btn waves-effect blue white-text" href="catalogo/VentanasMetalicas">VER
+                                    CATALOGO</a>
                             </div>
                         </div>
                     </div>
@@ -161,10 +154,4 @@
         <img src="{{ asset('img/Ventanas/9.jpg') }}" class="parallax" du-parallax y="background" style="width: 100%;"
             alt="Unsplashed background img 1" />
     </div>
-    <style>
-        #card {
-            height: 350px;
-        }
-
-    </style>
 @endsection
